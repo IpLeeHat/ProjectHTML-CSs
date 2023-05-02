@@ -55,35 +55,31 @@ body {
     font-size: 30px;
 }
 .sentence2 {
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
-
 .fvc img{
     width:100%
 }
-
+.imgpractice{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
 .tryhard img{
     width: 260px;
+    border-radius: 10px/10px;
 }
 .practice img{
     width: 260px;
+    border-radius: 10px/10px;
 }
 .success img{
-    width: 270px;
-    margin-left: 68%;
-    margin-top: -80%;
-    padding-bottom: 18px;
-    
-    
-    
+    width: 270px;  
+    border-radius: 10px/10px;    
 }
-.rule {
-    font-size: 10px;
+.law{
+        display: grid;
+        grid-template-columns: 200% 100% ;
+       
 }
-.contact {
-    font-size: 10px;
-    margin-left: 77%;
-    margin-top: -130px;
-    
-}
+
+
